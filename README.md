@@ -16,6 +16,7 @@ iOS App to run JavaScript with JSCore, using different libraries
   - [x] Nodelike
   - [x] JavaScriptBridgeLib
   - [ ] Cordova
+  - [ ] Titanium support / bindings? 
   - [ ] Chrome Apps
 - [x] File manager
   - [x] Create files, folders
