@@ -1,0 +1,87 @@
+PODS:
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (2.0.0-beta3):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta3)
+  - CocoaLumberjack/Default (2.0.0-beta3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta3):
+    - CocoaLumberjack/Default
+  - Cordova (HEAD based on 3.6.0)
+  - CYRTextView (HEAD based on 0.4.0)
+  - FCFileManager (1.0.5)
+  - FHSegmentedViewController (HEAD based on 1.2.4)
+  - IGJavaScriptConsole (0.1.3):
+    - CocoaHTTPServer (~> 2.3)
+    - CocoaLumberjack (>= 1.6.4)
+    - JavaScriptCoreOpalAdditions (~> 0.3.0)
+  - ionicons (1.5.2)
+  - JavaScriptBridgeLib (1.0):
+    - JavaScriptBridgeLib/Core
+    - JavaScriptBridgeLib/Foundation
+    - JavaScriptBridgeLib/Private
+    - JavaScriptBridgeLib/QuartzCore
+    - JavaScriptBridgeLib/UIKit
+  - JavaScriptBridgeLib/Core (1.0):
+    - JavaScriptBridgeLib/Private
+  - JavaScriptBridgeLib/Foundation (1.0):
+    - JavaScriptBridgeLib/Core
+  - JavaScriptBridgeLib/Private (1.0)
+  - JavaScriptBridgeLib/QuartzCore (1.0):
+    - JavaScriptBridgeLib/Core
+    - JavaScriptBridgeLib/Foundation
+  - JavaScriptBridgeLib/UIKit (1.0):
+    - JavaScriptBridgeLib/Core
+    - JavaScriptBridgeLib/Foundation
+  - JavaScriptCoreOpalAdditions (0.3.1):
+    - ObjectiveSugar (~> 1.1.0)
+  - Nodelike (0.1.0)
+  - ObjectiveSugar (1.1.0)
+  - SSZipArchive (0.3.2)
+  - TKFormKit (0.1.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - Cordova (HEAD)
+  - CYRTextView (HEAD)
+  - FCFileManager (from `https://github.com/xslim/FCFileManager.git`)
+  - FHSegmentedViewController (HEAD)
+  - IGJavaScriptConsole
+  - ionicons
+  - JavaScriptBridgeLib (from `./external/JavaScriptBridge`)
+  - Nodelike (from `./external/Nodelike`)
+  - SSZipArchive
+  - TKFormKit (from `https://github.com/xslim/TKFormKit.git`)
+
+EXTERNAL SOURCES:
+  FCFileManager:
+    :git: https://github.com/xslim/FCFileManager.git
+  JavaScriptBridgeLib:
+    :path: ./external/JavaScriptBridge
+  Nodelike:
+    :path: ./external/Nodelike
+  TKFormKit:
+    :git: https://github.com/xslim/TKFormKit.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  CocoaHTTPServer: 217df4cba4e48803db2480f97b805aaad2230dd1
+  CocoaLumberjack: 55c22a2b8bde7a29c568ab4015b5874216524d70
+  Cordova: ce750bacf069faeedcc24612d82c27bc16c6701b
+  CYRTextView: 0ac6cf1da8ef5736fc78ea37978be50e51392c75
+  FCFileManager: 9b3bb71bdc08b94dc3b801d85c8cea548c9d0a52
+  FHSegmentedViewController: aa518bbc03fedf12d94fb09b2b530ebcff6a4943
+  IGJavaScriptConsole: c4111f515d0993a80aa136564a2fbc6a2179d61c
+  ionicons: 6be0e241a437a7e69c50cbc8e1700ee8d1535a58
+  JavaScriptBridgeLib: 003138aeec301c3bfb3dadc2b8bdedd7236de4ae
+  JavaScriptCoreOpalAdditions: 03fedeb053ad5ef8704bf1dff4a490bab2c47161
+  Nodelike: 1b3600e474d1b6a283d9abdff45012ee9e6687f1
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
+  SSZipArchive: 11299a4e89821bd4085b12f25edaa85853e0051c
+  TKFormKit: b92a8976c2831b15d8cef03f86b75dff5ef7c778
+
+COCOAPODS: 0.34.4

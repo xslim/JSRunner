@@ -7,16 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE8F2C88CB0560BF8CFDB07 /* libPods-JSRunnerAction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B038A1EF1C2DF036DE408F /* libPods-JSRunnerAction.a */; };
+		638763F0BC8EA326AE89B5B5 /* libPods-JSRunner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0516F1A3C1B5F18FE53994 /* libPods-JSRunner.a */; };
+		76274F9B19F965500044099B /* RunnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628F57219E07AFC00999422 /* RunnerViewController.m */; };
+		76274F9E19F97ACF0044099B /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76274F9D19F97ACF0044099B /* FileViewController.m */; };
+		76274FA219F9BA540044099B /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76274FA119F9BA540044099B /* EditorViewController.m */; };
+		76274FA519F9C3EC0044099B /* XApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 76274FA419F9C3EC0044099B /* XApplication.m */; };
+		7628F56519E0703F00999422 /* FileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628F56219E0703F00999422 /* FileController.m */; };
+		7628F56A19E0706800999422 /* FilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628F56919E0706800999422 /* FilesViewController.m */; };
+		7628F56C19E0716000999422 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 7628F56B19E0716000999422 /* js */; };
+		7628F56E19E0743000999422 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628F56D19E0743000999422 /* CoreLocation.framework */; };
+		7628F57019E0743A00999422 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628F56F19E0743A00999422 /* MediaPlayer.framework */; };
+		7628F57319E07AFC00999422 /* RunnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628F57219E07AFC00999422 /* RunnerViewController.m */; };
+		7664635619F83C5F00EA3F88 /* _utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 7664635519F83C5F00EA3F88 /* _utils.js */; };
+		7664635919F85BF500EA3F88 /* JSWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7664635719F85BF500EA3F88 /* JSWebViewController.h */; };
+		7664635A19F85BF500EA3F88 /* JSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7664635819F85BF500EA3F88 /* JSWebViewController.m */; };
+		767EE39A19F7CB1E0021D015 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767EE39919F7CB1E0021D015 /* MapKit.framework */; };
+		767EE3A619F7F3620021D015 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EE3A519F7F3620021D015 /* ActionViewController.m */; };
+		767EE3A819F7F3620021D015 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767EE3A719F7F3620021D015 /* MainInterface.storyboard */; };
+		767EE3AB19F7F3620021D015 /* JSRunnerAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 767EE3A019F7F3620021D015 /* JSRunnerAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		767EE3B119F7FF170021D015 /* ImagesExt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767EE3B019F7FF170021D015 /* ImagesExt.xcassets */; };
+		767EE3B319F8026B0021D015 /* FileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628F56219E0703F00999422 /* FileController.m */; };
+		767EE3BE19F8098A0021D015 /* JSRunnerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 767EE3BD19F8098A0021D015 /* JSRunnerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		767EE3C419F8098A0021D015 /* JSRunnerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767EE3B919F8098A0021D015 /* JSRunnerKit.framework */; };
+		767EE3CD19F8098A0021D015 /* JSRunnerKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EE3CC19F8098A0021D015 /* JSRunnerKitTests.m */; };
+		767EE3D019F8098B0021D015 /* JSRunnerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767EE3B919F8098A0021D015 /* JSRunnerKit.framework */; };
+		767EE3D119F8098B0021D015 /* JSRunnerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 767EE3B919F8098A0021D015 /* JSRunnerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		767EE3D919F809C00021D015 /* JSRunnerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767EE3B919F8098A0021D015 /* JSRunnerKit.framework */; };
+		767EE3DC19F80F050021D015 /* JSRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 767EE3DA19F80F050021D015 /* JSRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		767EE3DD19F80F050021D015 /* JSRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 767EE3DB19F80F050021D015 /* JSRunner.m */; };
 		7694688819E05D7900462E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7694688719E05D7900462E95 /* main.m */; };
 		7694688B19E05D7900462E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7694688A19E05D7900462E95 /* AppDelegate.m */; };
-		7694688E19E05D7900462E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7694688D19E05D7900462E95 /* ViewController.m */; };
 		7694689119E05D7900462E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694688F19E05D7900462E95 /* Main.storyboard */; };
 		7694689319E05D7900462E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694689219E05D7900462E95 /* Images.xcassets */; };
 		7694689619E05D7900462E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7694689419E05D7900462E95 /* LaunchScreen.xib */; };
 		769468A219E05D7900462E95 /* JSRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769468A119E05D7900462E95 /* JSRunnerTests.m */; };
+		B55A02A52BE3934D739DCD94 /* libPods-JSRunnerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 500315E26D9309451F1EFDBE /* libPods-JSRunnerKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		767EE3A919F7F3620021D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7694687A19E05D7900462E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EE39F19F7F3620021D015;
+			remoteInfo = JSRunnerAction;
+		};
+		767EE3C519F8098A0021D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7694687A19E05D7900462E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EE3B819F8098A0021D015;
+			remoteInfo = JSRunnerKit;
+		};
+		767EE3C719F8098A0021D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7694687A19E05D7900462E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7694688119E05D7900462E95;
+			remoteInfo = JSRunner;
+		};
+		767EE3CE19F8098A0021D015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7694687A19E05D7900462E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EE3B819F8098A0021D015;
+			remoteInfo = JSRunnerKit;
+		};
 		7694689C19E05D7900462E95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7694687A19E05D7900462E95 /* Project object */;
@@ -26,27 +83,127 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		767EE3AF19F7F3630021D015 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				767EE3AB19F7F3620021D015 /* JSRunnerAction.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3D519F8098B0021D015 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				767EE3D119F8098B0021D015 /* JSRunnerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		18BA6C38E08449520EBB1BE8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2827A4D0F8F9235E9C99EB6E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		33D59A8E369283E0D15238F1 /* Pods-JSRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunner/Pods-JSRunner.debug.xcconfig"; sourceTree = "<group>"; };
+		3467BBAA853E4BA82C4A22C5 /* Pods-JSRunnerAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunnerAction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunnerAction/Pods-JSRunnerAction.debug.xcconfig"; sourceTree = "<group>"; };
+		500315E26D9309451F1EFDBE /* libPods-JSRunnerKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSRunnerKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512C26ED73AAFA6E79B4B2D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFD7A8C4F73F6F45F68CF18 /* Pods-JSRunnerAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunnerAction.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunnerAction/Pods-JSRunnerAction.release.xcconfig"; sourceTree = "<group>"; };
+		613BEC3C2F4234453CB15EEB /* Pods-JSRunnerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunnerKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunnerKit/Pods-JSRunnerKit.release.xcconfig"; sourceTree = "<group>"; };
+		76274F9C19F97ACF0044099B /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		76274F9D19F97ACF0044099B /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		76274FA019F9BA540044099B /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		76274FA119F9BA540044099B /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		76274FA319F9C3EC0044099B /* XApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XApplication.h; sourceTree = "<group>"; };
+		76274FA419F9C3EC0044099B /* XApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XApplication.m; sourceTree = "<group>"; };
+		7628F56119E0703F00999422 /* FileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileController.h; sourceTree = "<group>"; };
+		7628F56219E0703F00999422 /* FileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileController.m; sourceTree = "<group>"; };
+		7628F56819E0706800999422 /* FilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesViewController.h; sourceTree = "<group>"; };
+		7628F56919E0706800999422 /* FilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesViewController.m; sourceTree = "<group>"; };
+		7628F56B19E0716000999422 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		7628F56D19E0743000999422 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7628F56F19E0743A00999422 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7628F57119E07AFC00999422 /* RunnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunnerViewController.h; sourceTree = "<group>"; };
+		7628F57219E07AFC00999422 /* RunnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunnerViewController.m; sourceTree = "<group>"; };
+		7664635519F83C5F00EA3F88 /* _utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = _utils.js; sourceTree = "<group>"; };
+		7664635719F85BF500EA3F88 /* JSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWebViewController.h; sourceTree = "<group>"; };
+		7664635819F85BF500EA3F88 /* JSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWebViewController.m; sourceTree = "<group>"; };
+		767EE39919F7CB1E0021D015 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		767EE39B19F7EF620021D015 /* JSRunner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JSRunner.entitlements; sourceTree = "<group>"; };
+		767EE3A019F7F3620021D015 /* JSRunnerAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JSRunnerAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EE3A319F7F3620021D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767EE3A419F7F3620021D015 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		767EE3A519F7F3620021D015 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		767EE3A719F7F3620021D015 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		767EE3B019F7FF170021D015 /* ImagesExt.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImagesExt.xcassets; sourceTree = "<group>"; };
+		767EE3B219F801F30021D015 /* JSRunnerAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JSRunnerAction.entitlements; sourceTree = "<group>"; };
+		767EE3B919F8098A0021D015 /* JSRunnerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSRunnerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EE3BC19F8098A0021D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767EE3BD19F8098A0021D015 /* JSRunnerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRunnerKit.h; sourceTree = "<group>"; };
+		767EE3C319F8098A0021D015 /* JSRunnerKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSRunnerKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		767EE3CB19F8098A0021D015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767EE3CC19F8098A0021D015 /* JSRunnerKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRunnerKitTests.m; sourceTree = "<group>"; };
+		767EE3DA19F80F050021D015 /* JSRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRunner.h; sourceTree = "<group>"; };
+		767EE3DB19F80F050021D015 /* JSRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRunner.m; sourceTree = "<group>"; };
 		7694688219E05D7900462E95 /* JSRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7694688619E05D7900462E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7694688719E05D7900462E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7694688919E05D7900462E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7694688A19E05D7900462E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7694688C19E05D7900462E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7694688D19E05D7900462E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7694689019E05D7900462E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7694689219E05D7900462E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7694689519E05D7900462E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7694689B19E05D7900462E95 /* JSRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		769468A019E05D7900462E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		769468A119E05D7900462E95 /* JSRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRunnerTests.m; sourceTree = "<group>"; };
+		7E0516F1A3C1B5F18FE53994 /* libPods-JSRunner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSRunner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E9D6A717EEC808D520115E /* Pods-JSRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunner/Pods-JSRunner.release.xcconfig"; sourceTree = "<group>"; };
+		CFF8BA9E5465C3930BF371A9 /* Pods-JSRunnerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSRunnerKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSRunnerKit/Pods-JSRunnerKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B038A1EF1C2DF036DE408F /* libPods-JSRunnerAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSRunnerAction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		767EE39D19F7F3620021D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3D919F809C00021D015 /* JSRunnerKit.framework in Frameworks */,
+				3AE8F2C88CB0560BF8CFDB07 /* libPods-JSRunnerAction.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3B519F8098A0021D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55A02A52BE3934D739DCD94 /* libPods-JSRunnerKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3C019F8098A0021D015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3C419F8098A0021D015 /* JSRunnerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7694687F19E05D7900462E95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7628F57019E0743A00999422 /* MediaPlayer.framework in Frameworks */,
+				7628F56E19E0743000999422 /* CoreLocation.framework in Frameworks */,
+				767EE3D019F8098B0021D015 /* JSRunnerKit.framework in Frameworks */,
+				767EE39A19F7CB1E0021D015 /* MapKit.framework in Frameworks */,
+				638763F0BC8EA326AE89B5B5 /* libPods-JSRunner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +217,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BD0E76A1F4812D1EDD8FB6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767EE39919F7CB1E0021D015 /* MapKit.framework */,
+				7628F56F19E0743A00999422 /* MediaPlayer.framework */,
+				7628F56D19E0743000999422 /* CoreLocation.framework */,
+				512C26ED73AAFA6E79B4B2D4 /* libPods.a */,
+				500315E26D9309451F1EFDBE /* libPods-JSRunnerKit.a */,
+				7E0516F1A3C1B5F18FE53994 /* libPods-JSRunner.a */,
+				F2B038A1EF1C2DF036DE408F /* libPods-JSRunnerAction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7628F56019E0703F00999422 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7628F56119E0703F00999422 /* FileController.h */,
+				7628F56219E0703F00999422 /* FileController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7628F56719E0706800999422 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7628F56819E0706800999422 /* FilesViewController.h */,
+				7628F56919E0706800999422 /* FilesViewController.m */,
+				7628F57119E07AFC00999422 /* RunnerViewController.h */,
+				7628F57219E07AFC00999422 /* RunnerViewController.m */,
+				76274FA019F9BA540044099B /* EditorViewController.h */,
+				76274FA119F9BA540044099B /* EditorViewController.m */,
+				76274F9C19F97ACF0044099B /* FileViewController.h */,
+				76274F9D19F97ACF0044099B /* FileViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		767EE3A119F7F3620021D015 /* JSRunnerAction */ = {
+			isa = PBXGroup;
+			children = (
+				767EE3B219F801F30021D015 /* JSRunnerAction.entitlements */,
+				767EE3A419F7F3620021D015 /* ActionViewController.h */,
+				767EE3A519F7F3620021D015 /* ActionViewController.m */,
+				767EE3A719F7F3620021D015 /* MainInterface.storyboard */,
+				767EE3B019F7FF170021D015 /* ImagesExt.xcassets */,
+				767EE3A219F7F3620021D015 /* Supporting Files */,
+			);
+			path = JSRunnerAction;
+			sourceTree = "<group>";
+		};
+		767EE3A219F7F3620021D015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767EE3A319F7F3620021D015 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767EE3BA19F8098A0021D015 /* JSRunnerKit */ = {
+			isa = PBXGroup;
+			children = (
+				767EE3BD19F8098A0021D015 /* JSRunnerKit.h */,
+				767EE3DA19F80F050021D015 /* JSRunner.h */,
+				767EE3DB19F80F050021D015 /* JSRunner.m */,
+				7664635719F85BF500EA3F88 /* JSWebViewController.h */,
+				7664635819F85BF500EA3F88 /* JSWebViewController.m */,
+				767EE3BB19F8098A0021D015 /* Supporting Files */,
+			);
+			path = JSRunnerKit;
+			sourceTree = "<group>";
+		};
+		767EE3BB19F8098A0021D015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7664635519F83C5F00EA3F88 /* _utils.js */,
+				767EE3BC19F8098A0021D015 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767EE3C919F8098A0021D015 /* JSRunnerKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				767EE3CC19F8098A0021D015 /* JSRunnerKitTests.m */,
+				767EE3CA19F8098A0021D015 /* Supporting Files */,
+			);
+			path = JSRunnerKitTests;
+			sourceTree = "<group>";
+		};
+		767EE3CA19F8098A0021D015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767EE3CB19F8098A0021D015 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7694687919E05D7900462E95 = {
 			isa = PBXGroup;
 			children = (
+				7628F56B19E0716000999422 /* js */,
 				7694688419E05D7900462E95 /* JSRunner */,
 				7694689E19E05D7900462E95 /* JSRunnerTests */,
+				767EE3A119F7F3620021D015 /* JSRunnerAction */,
+				767EE3BA19F8098A0021D015 /* JSRunnerKit */,
+				767EE3C919F8098A0021D015 /* JSRunnerKitTests */,
 				7694688319E05D7900462E95 /* Products */,
+				BB505197220B099668A90DC1 /* Pods */,
+				3BD0E76A1F4812D1EDD8FB6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +335,9 @@
 			children = (
 				7694688219E05D7900462E95 /* JSRunner.app */,
 				7694689B19E05D7900462E95 /* JSRunnerTests.xctest */,
+				767EE3A019F7F3620021D015 /* JSRunnerAction.appex */,
+				767EE3B919F8098A0021D015 /* JSRunnerKit.framework */,
+				767EE3C319F8098A0021D015 /* JSRunnerKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +345,11 @@
 		7694688419E05D7900462E95 /* JSRunner */ = {
 			isa = PBXGroup;
 			children = (
+				767EE39B19F7EF620021D015 /* JSRunner.entitlements */,
 				7694688919E05D7900462E95 /* AppDelegate.h */,
 				7694688A19E05D7900462E95 /* AppDelegate.m */,
-				7694688C19E05D7900462E95 /* ViewController.h */,
-				7694688D19E05D7900462E95 /* ViewController.m */,
+				7628F56019E0703F00999422 /* Controllers */,
+				7628F56719E0706800999422 /* ViewControllers */,
 				7694688F19E05D7900462E95 /* Main.storyboard */,
 				7694689219E05D7900462E95 /* Images.xcassets */,
 				7694689419E05D7900462E95 /* LaunchScreen.xib */,
@@ -98,6 +363,8 @@
 			children = (
 				7694688619E05D7900462E95 /* Info.plist */,
 				7694688719E05D7900462E95 /* main.m */,
+				76274FA319F9C3EC0044099B /* XApplication.h */,
+				76274FA419F9C3EC0044099B /* XApplication.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,20 +386,112 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BB505197220B099668A90DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2827A4D0F8F9235E9C99EB6E /* Pods.debug.xcconfig */,
+				18BA6C38E08449520EBB1BE8 /* Pods.release.xcconfig */,
+				CFF8BA9E5465C3930BF371A9 /* Pods-JSRunnerKit.debug.xcconfig */,
+				613BEC3C2F4234453CB15EEB /* Pods-JSRunnerKit.release.xcconfig */,
+				33D59A8E369283E0D15238F1 /* Pods-JSRunner.debug.xcconfig */,
+				B5E9D6A717EEC808D520115E /* Pods-JSRunner.release.xcconfig */,
+				3467BBAA853E4BA82C4A22C5 /* Pods-JSRunnerAction.debug.xcconfig */,
+				5AFD7A8C4F73F6F45F68CF18 /* Pods-JSRunnerAction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		767EE3B619F8098A0021D015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3BE19F8098A0021D015 /* JSRunnerKit.h in Headers */,
+				7664635919F85BF500EA3F88 /* JSWebViewController.h in Headers */,
+				767EE3DC19F80F050021D015 /* JSRunner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		7694688119E05D7900462E95 /* JSRunner */ = {
+		767EE39F19F7F3620021D015 /* JSRunnerAction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 769468A519E05D7900462E95 /* Build configuration list for PBXNativeTarget "JSRunner" */;
+			buildConfigurationList = 767EE3AC19F7F3630021D015 /* Build configuration list for PBXNativeTarget "JSRunnerAction" */;
 			buildPhases = (
-				7694687E19E05D7900462E95 /* Sources */,
-				7694687F19E05D7900462E95 /* Frameworks */,
-				7694688019E05D7900462E95 /* Resources */,
+				8E26EEA245F90CC913683AB3 /* Check Pods Manifest.lock */,
+				767EE39C19F7F3620021D015 /* Sources */,
+				767EE39D19F7F3620021D015 /* Frameworks */,
+				767EE39E19F7F3620021D015 /* Resources */,
+				70580ECD09F7D3E104BE9E4A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = JSRunnerAction;
+			productName = JSRunnerAction;
+			productReference = 767EE3A019F7F3620021D015 /* JSRunnerAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		767EE3B819F8098A0021D015 /* JSRunnerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767EE3D219F8098B0021D015 /* Build configuration list for PBXNativeTarget "JSRunnerKit" */;
+			buildPhases = (
+				3D2C2857512A303ABDDA7DCF /* Check Pods Manifest.lock */,
+				767EE3B419F8098A0021D015 /* Sources */,
+				767EE3B519F8098A0021D015 /* Frameworks */,
+				767EE3B619F8098A0021D015 /* Headers */,
+				767EE3B719F8098A0021D015 /* Resources */,
+				03699697CC22C40644473DF3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSRunnerKit;
+			productName = JSRunnerKit;
+			productReference = 767EE3B919F8098A0021D015 /* JSRunnerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		767EE3C219F8098A0021D015 /* JSRunnerKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767EE3D619F8098B0021D015 /* Build configuration list for PBXNativeTarget "JSRunnerKitTests" */;
+			buildPhases = (
+				767EE3BF19F8098A0021D015 /* Sources */,
+				767EE3C019F8098A0021D015 /* Frameworks */,
+				767EE3C119F8098A0021D015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767EE3C619F8098A0021D015 /* PBXTargetDependency */,
+				767EE3C819F8098A0021D015 /* PBXTargetDependency */,
+			);
+			name = JSRunnerKitTests;
+			productName = JSRunnerKitTests;
+			productReference = 767EE3C319F8098A0021D015 /* JSRunnerKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7694688119E05D7900462E95 /* JSRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769468A519E05D7900462E95 /* Build configuration list for PBXNativeTarget "JSRunner" */;
+			buildPhases = (
+				FA3A0052565E98C1AE37CF12 /* Check Pods Manifest.lock */,
+				7694687E19E05D7900462E95 /* Sources */,
+				7694687F19E05D7900462E95 /* Frameworks */,
+				7694688019E05D7900462E95 /* Resources */,
+				767EE3AF19F7F3630021D015 /* Embed App Extensions */,
+				767EE3D519F8098B0021D015 /* Embed Frameworks */,
+				A5E8DB06E916EB958F8A7BC6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767EE3AA19F7F3620021D015 /* PBXTargetDependency */,
+				767EE3CF19F8098A0021D015 /* PBXTargetDependency */,
 			);
 			name = JSRunner;
 			productName = JSRunner;
@@ -166,8 +525,40 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Kalapun;
 				TargetAttributes = {
+					767EE39F19F7F3620021D015 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B2NYSS5932;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					767EE3B819F8098A0021D015 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B2NYSS5932;
+					};
+					767EE3C219F8098A0021D015 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7694688119E05D7900462E95;
+					};
 					7694688119E05D7900462E95 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B2NYSS5932;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					7694689A19E05D7900462E95 = {
 						CreatedOnToolsVersion = 6.1;
@@ -190,11 +581,38 @@
 			targets = (
 				7694688119E05D7900462E95 /* JSRunner */,
 				7694689A19E05D7900462E95 /* JSRunnerTests */,
+				767EE39F19F7F3620021D015 /* JSRunnerAction */,
+				767EE3B819F8098A0021D015 /* JSRunnerKit */,
+				767EE3C219F8098A0021D015 /* JSRunnerKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		767EE39E19F7F3620021D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3A819F7F3620021D015 /* MainInterface.storyboard in Resources */,
+				767EE3B119F7FF170021D015 /* ImagesExt.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3B719F8098A0021D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664635619F83C5F00EA3F88 /* _utils.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3C119F8098A0021D015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7694688019E05D7900462E95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +620,7 @@
 				7694689119E05D7900462E95 /* Main.storyboard in Resources */,
 				7694689619E05D7900462E95 /* LaunchScreen.xib in Resources */,
 				7694689319E05D7900462E95 /* Images.xcassets in Resources */,
+				7628F56C19E0716000999422 /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +633,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03699697CC22C40644473DF3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSRunnerKit/Pods-JSRunnerKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2C2857512A303ABDDA7DCF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70580ECD09F7D3E104BE9E4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSRunnerAction/Pods-JSRunnerAction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E26EEA245F90CC913683AB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E8DB06E916EB958F8A7BC6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSRunner/Pods-JSRunner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3A0052565E98C1AE37CF12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		767EE39C19F7F3620021D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3A619F7F3620021D015 /* ActionViewController.m in Sources */,
+				76274F9B19F965500044099B /* RunnerViewController.m in Sources */,
+				767EE3B319F8026B0021D015 /* FileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3B419F8098A0021D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664635A19F85BF500EA3F88 /* JSWebViewController.m in Sources */,
+				767EE3DD19F80F050021D015 /* JSRunner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767EE3BF19F8098A0021D015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767EE3CD19F8098A0021D015 /* JSRunnerKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7694687E19E05D7900462E95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7694688E19E05D7900462E95 /* ViewController.m in Sources */,
+				76274F9E19F97ACF0044099B /* FileViewController.m in Sources */,
 				7694688B19E05D7900462E95 /* AppDelegate.m in Sources */,
 				7694688819E05D7900462E95 /* main.m in Sources */,
+				7628F56519E0703F00999422 /* FileController.m in Sources */,
+				7628F56A19E0706800999422 /* FilesViewController.m in Sources */,
+				76274FA519F9C3EC0044099B /* XApplication.m in Sources */,
+				7628F57319E07AFC00999422 /* RunnerViewController.m in Sources */,
+				76274FA219F9BA540044099B /* EditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +780,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		767EE3AA19F7F3620021D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767EE39F19F7F3620021D015 /* JSRunnerAction */;
+			targetProxy = 767EE3A919F7F3620021D015 /* PBXContainerItemProxy */;
+		};
+		767EE3C619F8098A0021D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767EE3B819F8098A0021D015 /* JSRunnerKit */;
+			targetProxy = 767EE3C519F8098A0021D015 /* PBXContainerItemProxy */;
+		};
+		767EE3C819F8098A0021D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7694688119E05D7900462E95 /* JSRunner */;
+			targetProxy = 767EE3C719F8098A0021D015 /* PBXContainerItemProxy */;
+		};
+		767EE3CF19F8098A0021D015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767EE3B819F8098A0021D015 /* JSRunnerKit */;
+			targetProxy = 767EE3CE19F8098A0021D015 /* PBXContainerItemProxy */;
+		};
 		7694689D19E05D7900462E95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7694688119E05D7900462E95 /* JSRunner */;
@@ -263,6 +827,128 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		767EE3AD19F7F3630021D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3467BBAA853E4BA82C4A22C5 /* Pods-JSRunnerAction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExtIcon;
+				CODE_SIGN_ENTITLEMENTS = JSRunnerAction/JSRunnerAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSRunnerAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		767EE3AE19F7F3630021D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFD7A8C4F73F6F45F68CF18 /* Pods-JSRunnerAction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ExtIcon;
+				CODE_SIGN_ENTITLEMENTS = JSRunnerAction/JSRunnerAction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JSRunnerAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		767EE3D319F8098B0021D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF8BA9E5465C3930BF371A9 /* Pods-JSRunnerKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSRunnerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		767EE3D419F8098B0021D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613BEC3C2F4234453CB15EEB /* Pods-JSRunnerKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSRunnerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		767EE3D719F8098B0021D015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSRunnerKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSRunner.app/JSRunner";
+			};
+			name = Debug;
+		};
+		767EE3D819F8098B0021D015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSRunnerKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSRunner.app/JSRunner";
+			};
+			name = Release;
+		};
 		769468A319E05D7900462E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -297,7 +983,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +1018,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -341,21 +1027,35 @@
 		};
 		769468A619E05D7900462E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D59A8E369283E0D15238F1 /* Pods-JSRunner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSRunner/JSRunner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JSRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		769468A719E05D7900462E95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E9D6A717EEC808D520115E /* Pods-JSRunner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JSRunner/JSRunner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JSRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -396,6 +1096,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		767EE3AC19F7F3630021D015 /* Build configuration list for PBXNativeTarget "JSRunnerAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EE3AD19F7F3630021D015 /* Debug */,
+				767EE3AE19F7F3630021D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767EE3D219F8098B0021D015 /* Build configuration list for PBXNativeTarget "JSRunnerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EE3D319F8098B0021D015 /* Debug */,
+				767EE3D419F8098B0021D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767EE3D619F8098B0021D015 /* Build configuration list for PBXNativeTarget "JSRunnerKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767EE3D719F8098B0021D015 /* Debug */,
+				767EE3D819F8098B0021D015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7694687D19E05D7900462E95 /* Build configuration list for PBXProject "JSRunner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -412,6 +1139,7 @@
 				769468A719E05D7900462E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		769468A819E05D7900462E95 /* Build configuration list for PBXNativeTarget "JSRunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +1148,7 @@
 				769468AA19E05D7900462E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

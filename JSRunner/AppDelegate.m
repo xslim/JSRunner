@@ -7,16 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "FileController.h"
+
+
 
 @interface AppDelegate ()
+
 
 @end
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    return YES;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [FileController checkExampleFiles];
+    
     return YES;
 }
 
@@ -40,6 +51,15 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    if (url) {
+        [FileController saveFileFromInboxUrl:url];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"fileImported" object:[url lastPathComponent]];
+    }
+    return YES;
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FilesViewController.h
 //  JSRunner
 //
 //  Created by Taras Kalapun on 10/4/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FilesViewController : UITableViewController
 
 @end
-
